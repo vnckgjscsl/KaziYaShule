@@ -3,7 +3,7 @@ def caesar_cipher(msg: str, key: int) -> str:
 
     for letter in msg:
         new_letter = chr((ord(letter) + key) % 26)
-        encrypted_msg += new_letter
+        encrypted_msg += new_letter 
 
     return encrypted_msg
 
